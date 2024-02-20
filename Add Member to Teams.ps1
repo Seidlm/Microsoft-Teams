@@ -27,7 +27,7 @@ $URLMember = "https://graph.microsoft.com/v1.0/users/$Member"
 $ResultMember = Invoke-RestMethod -Headers $headers -Uri $URLMember -Method Get
 
 #Get Team ID
-$URLTeam = "https://graph.microsoft.com/v1.0//groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')"
+$URLTeam = "https://graph.microsoft.com/v1.0/groups?$filter=resourceProvisioningOptions/Any(x:x eq 'Team')"
 $ResultTeam=(Invoke-RestMethod -Headers $headers -Uri $URLTeam -Method Get).value | Where-Object -Property displayName -Value $TeamName -eq
 
 
