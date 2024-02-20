@@ -1,6 +1,6 @@
-﻿$clientID = "your Client ID"
-$Clientsecret = "your Secret"
-$tenantID = "your Tenant ID"
+﻿$clientID = "your ClientID"
+$Clientsecret = "Your Secret"
+$tenantID = "your TenantID"
 
 $Graph_BaseURL = "https://graph.microsoft.com/v1.0"
 
@@ -20,8 +20,8 @@ $RecipientType="required" #required, optional
 $TeamsEventSubject = "My Teams-GRAPH API Event"
 $TeamsEventBody = "Thats my awesome Teams-GRAPH API Event Body"
 
-$TeamsEventStart = "2024-02-11T09:00:00"
-$TeamsEventEnd = "2024-02-11T10:00:00"
+$TeamsEventStart = "2024-02-25T09:00:00"
+$TeamsEventEnd = "2024-02-25T10:00:00"
 $timeZone = "UTC"
 
 
